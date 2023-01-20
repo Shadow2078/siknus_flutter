@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398210617395",
+    "project_id": "siknus-aa632",
+    "storage_bucket": "siknus-aa632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398210617395:android:61b1aaaa021835853f9346",
+        "android_client_info": {
+          "package_name": "com.example.n_baz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398210617395-19gijddli38ghmiiud2puk2t7m770m5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0orFfxtRpfq1kii_tIDWVD_qYp8J-HzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398210617395-19gijddli38ghmiiud2puk2t7m770m5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
