@@ -43,6 +43,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
   Widget build(BuildContext context) {
     return Form(
       child: Scaffold(
+        backgroundColor: Colors.blueGrey,
         body: Center(
           child: SingleChildScrollView(
             child: Container(
@@ -60,14 +61,14 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                   TextFormField(
                     controller: _emailController,
                     keyboardType: TextInputType.emailAddress,
-                    style: const TextStyle(fontFamily: 'WorkSansSemiBold', fontSize: 16.0, color: Colors.black),
+                    style: const TextStyle(fontFamily: 'WorkSansSemiBold', fontSize: 16.0, color: Colors.yellow),
                     decoration: InputDecoration(
                       enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
                       focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
                       border: InputBorder.none,
                       prefixIcon: const Icon(
                         Icons.email,
-                        color: Colors.black,
+                        color: Colors.yellow,
                         size: 22.0,
                       ),
                       hintText: 'Email Address',
@@ -108,7 +109,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                           },
                           child: Text(
                             "Sign In",
-                            style: TextStyle(color: Colors.blue),
+                            style: TextStyle(color: Colors.yellow),
                           ))
                     ],
                   ),
