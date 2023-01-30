@@ -134,7 +134,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         },
                         child: Text(
                           "Forgot password?",
-                          style: TextStyle(color: Colors.yellow),
+                          style: TextStyle(color: Colors.grey.shade800),
                         ),
                       )),
                   SizedBox(
